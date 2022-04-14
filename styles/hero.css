@@ -1,4 +1,8 @@
 
+.hero__img {
+    margin: 0 auto;
+}
+
 .hero__content {
     position: relative;
     margin-bottom: 5rem;
@@ -31,7 +35,6 @@
     position: absolute;
     top: 7rem;
     left: 19rem;
-    
 }
 
 
@@ -44,4 +47,17 @@
     top: 30px;
     left: -12px;
     mix-blend-mode: darken;
+}
+
+
+
+@media (min-width: 752px) {
+    .hero__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero__img {
+        margin: 0;
+    }
 }
