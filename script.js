@@ -16,6 +16,7 @@ hamburgerBtn.addEventListener('click', () => {
 
 overlayEl.addEventListener('click', function() {
     checkboxBtn.click();
+    bodyEl.classList.toggle('no-scroll');
     overlayEl.classList.add('hidden')
     
 });

@@ -3,9 +3,11 @@
     padding: 1rem 0;
     position: sticky;
     top: 0;
+    background-color: #fff;
+    z-index: 1;
 }
 
-.header__box {
+.header__wrapper {
     display: flex;
     align-items: center;
     position: relative;

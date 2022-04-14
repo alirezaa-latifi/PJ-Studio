@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hero.css">
+    <!-- FontAwsome Kit -->
+    <script src="https://kit.fontawesome.com/660edb983a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- header start -->
     <header class="header">
-        <div class="container header__box">
+        <div class="container header__wrapper">
             <a href="#"><img class="header__logo" src="assets/pj logo.png" alt="PJ logo"></a>
             <div class="responsive-menu">
                 <input class="responsive-menu__checkbox" id="burger-menu" type="checkbox">
@@ -43,7 +45,21 @@
 
     <!-- hero start -->
     <section class="hero">
-        
+        <div class="container hero__wrapper">
+            <div class="hero__content">
+                <div class="hero__arrow">
+                    <i class="fa-solid fa-4x fa-location-arrow fa-flip-horizontal"></i> 
+                </div>
+                 
+                <h1 class="hero__title">web & mobile<br>design<br>development</h1>
+                <p class="hero__description">Helps you to organize your income and expenses</p>
+                <div class="hero__cta-wrapper">
+                    <a class="btn btn--primary" href="#">Try free demo<i class="fa-solid fa-angle-right fa-rotate-90 btn__icon"></i></a>
+                    <p>- Web, IOS and Android</p>
+                </div>
+            </div>
+            <img src="assets/hero-vector.svg" alt="website" class="hero__img">
+        </div>
     </section>
     <!-- hero end -->
 

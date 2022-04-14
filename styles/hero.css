@@ -1,1 +1,46 @@
 
+.hero__content {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+
+.hero__title {
+    font-size: 5.2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.hero__description {
+    margin-bottom: 3rem;
+}
+
+.hero__cta-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero__arrow {
+    color: rgb(30, 60, 179);
+    background-color: rgb(25, 217, 154);
+    padding: 1rem;
+    width: max-content;
+    border-radius: 100%;
+    position: absolute;
+    top: 8rem;
+    left: 22rem;
+    
+}
+
+
+.hero__arrow::before {
+    content: '';
+    padding: 1.5rem;
+    background-color: rgb(199, 24, 65);
+    border-radius: 100%;
+    position: absolute;
+    top: 45px;
+    left: -9px;
+    mix-blend-mode: darken;
+}
