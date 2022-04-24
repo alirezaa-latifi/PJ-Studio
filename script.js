@@ -22,13 +22,13 @@ overlayEl.addEventListener('click', function () {
 });
 
 // Active modifier
-const processItemEls = document.querySelectorAll('.process-item');
+const processItemEls = document.querySelectorAll('.item--process');
 processItemEls.forEach( el => {
     el.addEventListener('click', function(){
         processItemEls.forEach( el => {
-            el.classList.remove('process-item--active');
+            el.classList.remove('item--active');
         });
-        el.classList.toggle('process-item--active')
+        el.classList.toggle('item--active')
     });
 });
 

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/process.css">
+    <link rel="stylesheet" href="styles/mobileApp.css">
     <!-- FontAwsome Kit -->
     <script src="https://kit.fontawesome.com/660edb983a.js" crossorigin="anonymous"></script>
 </head>
@@ -28,16 +29,16 @@
                 <label class="responsive-menu__label" for="burger-menu"></label>
                 <div class="overlay hidden"></div>
                 <div class="responsive-menu__container">
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#">Feedback</a></li>
-                    </ul>
-                </nav>
-                <a class="btn btn--primary header__cta" href="#">Request a demo</a>
-            </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Feedback</a></li>
+                        </ul>
+                    </nav>
+                    <a class="btn btn--primary header__cta" href="#">Request a demo</a>
+                </div>
             </div>
         </div>
     </header>
@@ -49,13 +50,14 @@
         <div class="container hero__wrapper">
             <div class="hero__content">
                 <div class="hero__arrow">
-                    <i class="fa-solid fa-3x fa-location-arrow fa-flip-horizontal"></i> 
+                    <i class="fa-solid fa-3x fa-location-arrow fa-flip-horizontal"></i>
                 </div>
-                 
+
                 <h1 class="hero__title">web & mobile<br>design<br>development</h1>
                 <p class="hero__description">Helps you to organize your income and expenses</p>
                 <div class="hero__cta-wrapper">
-                    <a class="btn btn--primary" href="#">Try free demo<i class="fa-solid fa-angle-right fa-rotate-90 btn__icon"></i></a>
+                    <a class="btn btn--primary" href="#">Try free demo<i
+                            class="fa-solid fa-angle-right fa-rotate-90 btn__icon"></i></a>
                     <p>- Web, IOS and Android</p>
                 </div>
             </div>
@@ -70,27 +72,54 @@
         <div class="container process__wrapper">
             <div class="process-special-item">
                 <h2 class="process-special-item__title">Our<br>Process</h2>
-                <p class="process-special-item__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p class="process-special-item__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
             </div>
-            <div class="process-item process-item--active">
-                <i class="fa-solid fa-door-open fa-3x process-item__icon process-item__icon--yellow"></i>
-                <h3 class="process-item__title">Daily Standup</h3>
-                <p class="process-item__description">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="item item--process item--active">
+                <i class="fa-solid fa-door-open fa-3x item__icon item__icon--yellow"></i>
+                <h3 class="item__title">Daily Standup</h3>
+                <p class="item__description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div class="process-item">
-                <i class="fa-solid fa-shield-cat fa-3x process-item__icon process-item__icon--blue"></i>
-                <h3 class="process-item__title">Weekly Syn Meeting</h3>
-                <p class="process-item__description">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="item item--process">
+                <i class="fa-solid fa-shield-cat fa-3x item__icon item__icon--blue"></i>
+                <h3 class="item__title">Weekly Syn Meeting</h3>
+                <p class="item__description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div class="process-item">
-                <i class="fa-solid fa-people-arrows-left-right fa-3x process-item__icon process-item__icon--orange"></i>
-                <h3 class="process-item__title">User Testing</h3>
-                <p class="process-item__description">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="item item--process">
+                <i class="fa-solid fa-people-arrows-left-right fa-3x item__icon item__icon--orange"></i>
+                <h3 class="item__title">User Testing</h3>
+                <p class="item__description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
         </div>
     </section>
     <!-- process end -->
 
+
+    <!-- app start -->
+    <section class="app">
+        <div class="container app__wrapper">
+            <img class="app__img" src="assets/phone-app.png" alt="smartphone">
+            <div class="app__content-box">
+                <p>Features</p>
+                <h2>Mobile App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint corporis cupiditate sit.</p>
+                <div class="app__properties">
+                    <div class="item item--app">
+                        <i class="fa-solid fa-people-arrows-left-right fa-3x item__icon item__icon--orange"></i>
+                        <h3 class="item__title">UI & UX Design</h3>
+                        <p class="item__description">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="item item--app">
+                        <i class="fa-solid fa-door-open fa-3x item__icon item__icon--yellow"></i>
+                        <h3 class="item__title">Native IOS App</h3>
+                        <p class="item__description">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- app end -->
     <script src="script.js"></script>
 </body>
 

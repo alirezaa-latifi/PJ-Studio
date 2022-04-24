@@ -1,6 +1,6 @@
 
 .process {
-    padding: 2rem 0 10rem;
+    padding: 2rem 0 20rem;
 }
 .process__wrapper {
     display: grid;
@@ -19,7 +19,7 @@
     margin-bottom: 2rem;
 }
 
-.process-item {
+.item {
     cursor: pointer;
     text-align: center;
     align-self: stretch;
@@ -28,13 +28,13 @@
     border-radius: 1rem;
 }
 
-.process-item--active {
+.item--active {
     background-color: #FFF4EF;
     box-shadow: 19px 19px 20px #e8e8e8;
     transition: all .3s ease-in-out;
 }
 
-.process-item__icon {
+.item__icon {
     color: #fff;
     background-color: gainsboro;
     align-self: center;
@@ -43,24 +43,24 @@
     margin-bottom: 2rem;
 }
 
-.process-item__icon--yellow {
+.item__icon--yellow {
     background-color: #FFBB41;
 }
 
-.process-item__icon--blue {
+.item__icon--blue {
     background-color: #4756DF;
 }
 
-.process-item__icon--orange {
+.item__icon--orange {
     background-color: #FA6444;
 }
 
-.process-item__title {
+.item__title {
     margin-bottom: .5rem;
 }
 
 
-.process-item__description,
+.item__description,
 .process-special-item__description {
     color: rgb(72, 72, 72);
 }
