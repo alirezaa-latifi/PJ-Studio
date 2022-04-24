@@ -61,7 +61,7 @@ button {
 
 .container {
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -83,6 +83,7 @@ button {
     padding: .7em 1em;
     box-shadow: inset 0px 0px 0px 1px black;
     border-radius: .5em;
+    white-space: nowrap;
 }
 
 .btn--primary {
