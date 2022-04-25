@@ -11,6 +11,8 @@
 :root {
     --clr-primary: #8a6af8;
     --clr-dark: #292830;
+    --clr-secondary: rgb(107, 107, 107);
+
 }
 
 html {

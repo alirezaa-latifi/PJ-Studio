@@ -21,12 +21,14 @@
 
 .hero__description {
     margin-bottom: 3rem;
+    color: var(--clr-secondary);
 }
 
 .hero__cta-wrapper {
     display: flex;
     align-items: center;
     gap: 2rem;
+    color: var(--clr-secondary);
 }
 
 .hero__arrow {

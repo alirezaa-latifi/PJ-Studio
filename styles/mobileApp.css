@@ -24,6 +24,21 @@
     gap: 1rem;
 }
 
+.app__tag {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: var(--clr-secondary);
+
+}
+
+.app__title {
+    font-size: 3.5rem;
+}
+
+.app__description {
+    color: var(--clr-secondary);
+}
+
 .app__properties {
     margin-top: 1rem;
     display: grid;
