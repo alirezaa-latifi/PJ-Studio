@@ -21,7 +21,7 @@ overlayEl.addEventListener('click', function () {
 
 });
 
-// Active modifier
+// Active process modifier
 const processItemEls = document.querySelectorAll('.item--process');
 processItemEls.forEach( el => {
     el.addEventListener('click', function(){
@@ -32,3 +32,14 @@ processItemEls.forEach( el => {
     });
 });
 
+
+// Active offer modifier
+const offerItemEls = document.querySelectorAll('.offer__item');
+offerItemEls.forEach( el => {
+    el.addEventListener('click', function(){
+        offerItemEls.forEach( el => {
+            el.classList.remove('offer__item--active');
+        });
+        el.classList.toggle('offer__item--active')
+    });
+});
