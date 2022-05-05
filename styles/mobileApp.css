@@ -1,4 +1,3 @@
-
 .app {
     background-color: #F4F4FF;
 }
@@ -52,14 +51,25 @@
     padding: 1rem;
 }
 
+.item__icon {
+    transition: all .5s ease-in-out;
+}
+
+
+.item--app:hover .item__icon,
+.item--app:focus .item__icon {
+    transform: rotateY(360deg);
+}
 
 @media (max-width: 566PX) {
     .item--app {
         text-align: center;
     }
+
     .app {
         padding-bottom: 7rem;
     }
+
     .app__content-box {
         margin-top: 5rem;
     }

@@ -60,9 +60,11 @@
     .hero__wrapper {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .hero__img {
         margin: 0;
+        width: 50rem;
     }
 }
