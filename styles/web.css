@@ -1,0 +1,31 @@
+
+
+.web {
+    background-color: #FFF4EF;
+}
+
+.web__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    place-items: center;
+    gap: 1rem;
+}
+
+.web__img {
+    padding: 4rem;
+}
+
+@media (max-width: 722px) {
+
+    .web__img {
+        order: 1;
+        padding: 4rem 0;
+    }
+    
+    .app__content-box--web {
+        order: 2;
+    }
+}
+
+
+

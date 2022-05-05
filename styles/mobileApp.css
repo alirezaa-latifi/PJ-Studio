@@ -16,7 +16,7 @@
 
 .app__content-box {
     background-color: white;
-    padding: 3rem;
+    padding: 5rem 3rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
