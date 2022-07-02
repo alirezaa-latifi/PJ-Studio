@@ -1,6 +1,6 @@
 # PJ-Studio
 
-It's a single responsive web page of a sample studio website's [design on the dribble](https://dribbble.com/shots/17262643/attachments/12371264?mode=media), developed for training purposes.
+It's a single responsive web page of a studio website's [design on the dribble](https://dribbble.com/shots/17262643/attachments/12371264?mode=media), developed for training purposes.
 
 ## Screenshots
 
